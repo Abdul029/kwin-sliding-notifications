@@ -1,9 +1,7 @@
 # KWin Horizontal Sliding Notifications (Plasma 6)
 
-# KWin Horizontal Sliding Notifications (Plasma 6)
-
 <p align="center">
-  <video src="https://github.com/RussH/kwin-sliding-notifications/blob/main/preview.webm" width="600" controls autoplay loop muted>
+  <video src="preview.webm" width="600" controls autoplay loop muted>
     Your browser does not support the video tag.
   </video>
 </p>
