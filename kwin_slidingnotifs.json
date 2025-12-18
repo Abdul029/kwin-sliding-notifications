@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "RussH"
+            }
+        ],
+        "Description": "Tactile horizontal sliding animations for notifications",
+        "Id": "kwin_slidingnotifs",
+        "Name": "Sliding Notifications",
+        "Category": "Appearance",
+        "EnabledByDefault": false,
+        "License": "MIT"
+    },
+    "X-KDE-ConfigModule": "",
+    "X-KDE-Library": "kwin_final_sliding",
+    "X-KDE-PluginKeyword": "kwin_final_sliding",
+    "X-Kwin-Video-Url": ""
+}
