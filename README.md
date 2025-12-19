@@ -68,6 +68,39 @@ KWin 6 headers are not considered a stable API. If this breaks after a major Pla
 - Verify the `EffectWindow` methods (like `isNotification()`) haven't been renamed.
 - Check system logs for loading errors (e.g. “Symbol not found”):
 
+- This is my specific CMakeLists.txt below, I've tried to make th eone here more generic. If you are on KDE Neon you may want to use this instead  
+
 ```bash
-journalctl -f | grep kwin
+cmake_minimum_required(VERSION 3.16)
+project(kwin_final_sliding)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_AUTOMOC ON)
+
+find_package(ECM REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
+include(KDEInstallDirs)
+include(KDECMakeSettings)
+include(KDECompilerSettings NO_POLICY_SCOPE)
+
+find_package(Qt6 REQUIRED COMPONENTS Core Gui)
+find_package(KF6 REQUIRED COMPONENTS CoreAddons WindowSystem Config WidgetsAddons)
+
+set(CMAKE_AUTOMOC_MOC_OPTIONS "-I${CMAKE_CURRENT_SOURCE_DIR}")
+
+# The target name must match across all three lines below
+add_library(kwin_final_sliding MODULE SlidingEffect.cpp)
+
+target_include_directories(kwin_final_sliding SYSTEM PRIVATE /usr/include/kwin)
+
+target_link_libraries(kwin_final_sliding
+    /usr/lib/x86_64-linux-gnu/libkwin.so.6
+    Qt6::Core
+    KF6::CoreAddons
+    KF6::WindowSystem
+    KF6::ConfigCore
+    KF6::WidgetsAddons
+)
+
+install(TARGETS kwin_final_sliding DESTINATION ${KDE_INSTALL_PLUGINDIR}/kwin/effects/plugins)
 ```
