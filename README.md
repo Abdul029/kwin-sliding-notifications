@@ -88,7 +88,6 @@ find_package(KF6 REQUIRED COMPONENTS CoreAddons WindowSystem Config WidgetsAddon
 
 set(CMAKE_AUTOMOC_MOC_OPTIONS "-I${CMAKE_CURRENT_SOURCE_DIR}")
 
-# The target name must match across all three lines below
 add_library(kwin_final_sliding MODULE SlidingEffect.cpp)
 
 target_include_directories(kwin_final_sliding SYSTEM PRIVATE /usr/include/kwin)
