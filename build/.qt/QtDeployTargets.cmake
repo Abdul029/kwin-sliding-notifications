@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_kwin_final_sliding_FILE /home/russh/Projects/kwin-sliding-plugin/build/libkwin_final_sliding.so)
+set(__QT_DEPLOY_TARGET_kwin_final_sliding_TYPE MODULE_LIBRARY)
