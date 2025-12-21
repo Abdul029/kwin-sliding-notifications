@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -shared  -o libkwin_final_sliding.so CMakeFiles/kwin_final_sliding.dir/SlidingEffect.cpp.o  -lKWin::Effect /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.10.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.1

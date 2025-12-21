@@ -1,0 +1,17 @@
+# CMake generated files
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/ ;
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Qt/KDE generated files
+*_autogen/
+*.moc
+mocs_compilation.cpp
+
+# Shared library output
+*.so

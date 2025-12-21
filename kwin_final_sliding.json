@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Russh"
+            }
+        ],
+        "Category": "Appearance",
+        "Description": "Horizontal sliding animations for notifications",
+        "EnabledByDefault": true,
+        "Icon": "preferences-system-windows-effect-slidingnotifications",
+        "License": "GPL",
+        "Name": "Sliding Notifications",
+        "ServiceTypes": [
+            "KWin/Effect"
+        ]
+    }
+}

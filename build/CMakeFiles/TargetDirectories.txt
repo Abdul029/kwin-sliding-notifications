@@ -1,7 +1,0 @@
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/kwin_final_sliding.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/edit_cache.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/rebuild_cache.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/list_install_components.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/install.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/install/local.dir
-/home/russh/Projects/kwin-sliding-plugin/build/CMakeFiles/install/strip.dir
